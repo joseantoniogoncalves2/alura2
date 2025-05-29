@@ -11,7 +11,7 @@
 
 <body>
     <header class="container text-center">
-        <img src="https://joseantoniogoncalves2.github.io/alura2/Titulo_projeto.png" alt="avatar do zé cueca" >
+        <img src="https://joseantoniogoncalves2.github.io/alura2/Titulo_projeto.png" alt="avatar do zé cueca">
         <p class="lead">Eu sou José</p>
         <h1>Eu sou aluno</h1>
         <p>Estou aprendendo a programação</p>
@@ -23,24 +23,32 @@
             <p class="badge bg-secondary">VsCode</p>
         </div>
     </header>
+
     <main class="container">
         <h2>Meus projetos</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img src=""https:
+                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Imagem do projeto">
                     <div class="card-body">
-                      <h5 class="card-title">projetos</h5>
-                      <p class="card-text">Este projeto é uma página web que apresenta uma lista dos meus livros
-                            favoritos, incluindo informações sobre os autores, datas de publicação e links para compra
-                            na Amazon. A página é estilizada com CSS para uma visualização agradável e usa fontes
-                            externas do Google Fonts.</p>
-                      <a href="#" class="btn btn-primary">Veja os livros</a>
+                        <h5 class="card-title">Projeto: Meus Livros</h5>
+                        <p class="card-text">Uma página com meus livros favoritos, autores, datas e links de compra.</p>
+                        <button class="btn btn-primary" onclick="abrirImagem()">Veja os livros</button>
                     </div>
-                  </div>
+                </div>
             </div>
+        </div>
     </main>
-    <script src=C:\Users\Usuario\AppData\Local\Temp\a570ab58-f2a4-4761-8460-1b2d47bccccd_imagens.zip.ccd\meu livros.png></script>
+
+    <!-- Script JavaScript -->
+    <script>
+        function abrirImagem() {
+            window.open('meu_livros.png', '_blank'); // abre em nova aba
+        }
+    </script>
 </body>
+
+</html>
+
 
 </html>
